@@ -99,6 +99,9 @@ img{
     color: var(--color-brand)
 
 }
+.tool-use{
+    height: 100px;
+}
 @media(min-width: 992px){
     .navbar{
         min-height: 100vh;
