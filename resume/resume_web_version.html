@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<style>
+      body{
+        margin: 5rem;
+        padding-left: 11rem;
+        background-color:rgb(99, 102, 104)
+
+
+    }
+    .resume{
+        background-color: aliceblue;
+        width: 50rem;
+        height: 65rem;
+        border: 2px solid black;
+    }
+    
+     /* End Design For header*/
+    header{ 
+        height: 8rem;
+        margin-top: 2rem;
+        padding-top: 10px;
+    }
+    img{
+        height: 10rem;
+        float:left;
+
+    }
+    .box img{
+        border: 20px double rgb(219, 208, 208);
+        margin-left: 40px;
+    }
+    .name{
+        padding-top: 10px;
+        background-color: rgb(22, 155, 155);
+        padding-top: 25;
+        margin-top: 30px;
+        width: 50rem;
+        margin-bottom: 0;
+        height: 8rem;
+    }
+    .name h2 , .name p{
+        color: white;
+        margin-bottom: 0;
+        padding-left:16rem;
+        text-transform:uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+    }
+     /* End Design For header*/
+
+    main{
+        margin-top: 6rem;
+        display: flex;
+    }
+    main h3{
+        color: rgb(22, 155, 155);
+        margin: 0;
+        letter-spacing: 2px;
+    }
+   
+
+
+      /* Design For left Row */
+    .next-row{
+        margin-top: 65px;
+        
+    }
+    .left-column ul li{
+        padding-left: -50px;
+    }
+    .left-row{ 
+        /* background-color: aquamarine; */
+        width: 15rem;
+        padding-left: 60px;
+       
+    }
+    /* End Design For left Row */
+
+    /* Design for right row */
+    .right-row{
+
+        width: 25rem;
+        float: right;
+        padding-right:15px;
+        padding-left:45px;
+        text-align: justify;   
+      
+    }
+    .right-row h3{
+        text-transform: uppercase;
+        color:rgb(22, 155, 155); 
+        letter-spacing: 2px;
+    }
+    .right-column h4 {
+        margin-bottom: 0;
+    }
+    .right-column h5{
+       margin-top: 0;
+    }
+    .right-column ul li{
+        text-align: justify;
+    }
+  /* END Design for right row */
+
+  .btn{
+    background-color: rgb(26, 179, 115);
+    border: white;
+    color: white;
+    border-radius: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+
+   
+  }
+  .download{
+    margin-top: 20px;
+    
+  }
+</style>
+<body>
+   <div class="resume">
+    <header> 
+        <div class="box"> 
+            <img src="resume.jpg" alt="">
+        </div>
+       <div class="name">
+            <h2>Airish Argoncillo</h2><hr>
+            <p>Web Developer</p>
+       </div>
+    </header>
+
+    <main>
+        <div class="left-row">
+            <!-- Contact Section -->
+            <div class="left-column">
+                <h3>CONTACT </h3>
+                <p>Baco, Oriental Mindoro, 5201</p>
+                <p>profferlhastlyfaner07@gmail.com</p>
+                <p>0991-932-9179</p>
+            </div>
+            <!-- Skills Section -->
+            <div class="left-column next-row">
+                <h3>SKILLS</h3>
+                <p>Project Management</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Bootstrap</p>
+                <p>PHP</p>
+                <p>SQL</p>
+                <p>Hosting</p>
+            </div>
+
+            <div class="left-column next-row" >
+                <h3>OTHER SKILLS</h3>
+                <ul>
+                    <li> The ability to analyze complextechnical information</li>
+                    <li>Can analyze, design and  implement database structures</li>
+                    <li>Detailed oriented</li>
+                    <li>Excellent problem solver</li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <!-- Content for Right Column PErsonal Information , Educ. Qualification, Project Developed -->
+
+        <div class="right-row">
+            <!--Personal Information Section -->
+            <div class="right-column">
+                <h3>Personal Information </h3>
+                <p>I'm a web developer with a strong interest in projects that
+                    require analytical thinking. I’m involved in the full product
+                    development cycle, from defining the product vision to
+                    conducting user research, prototyping, testing, and iterating
+                    post-launch on the web. I'm eager to join a company where I can
+                    showcase my skills.
+                 </p>
+            </div>  
+            <!-- Education Qualification -->
+            <div class="right-column">
+                <h3>Education Qualification</h3>
+
+                <h4>Bachelor of Science and Information Technology</h4>
+                     <h5><em> Mindoro State University | June 2018 - August 2022</em></h5>
+
+                    <ul>
+                        <li>Gained extensive training and successfully accomplished
+                            all courses for web development and programming.</li>
+                        <li>Practice the actual project management that includes:
+                            designing, testing, coding, hosting, and analyzing.</li>
+                        <li>Successfully deployed capstone project, it developed a
+                            library system that included a QR code and an e-book.</li>
+                    </ul>
+                
+                 <h4>Computer System Servicing NC II</h4>
+                    <h5><em> Baco Technical Vocational School | September -December 2020</em></h5>
+    
+                        <ul>
+                            <li>Practice troubleshooting and Computer Formatting.</li>
+                            <li>Perform Installing drivers and applications</li>
+                            <li>Basic knowledge of networking computers.</li>
+                            <li>NCII Passer</li>
+                        </ul>
+            </div>
+             <!-- Project Develope -->
+            <div class="right-column">
+                <h3>Project Developed</h3>
+                <h4>Web Library Information System</h4>
+                <h5><em> Capstone Project | March- July 2022</em></h5>
+
+                <p>Title:Integration-of-QR-Code-and-Ebook-in-Web-Based-
+                    Libary-System</p>
+            </div>  
+            
+        </div>
+    </main>
+   </div>
+   <div class="download">
+    <a href="CV_Resume.pdf" class="btn">Download CV</a>
+   </div>
+</body>
+</html>
